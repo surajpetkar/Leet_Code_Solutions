@@ -3,11 +3,11 @@ package easy.problems;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Fair_Candy_Swap {
+public class FairCandySwap {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Fair_Candy_Swap fcs = new Fair_Candy_Swap();
+		FairCandySwap fcs = new FairCandySwap();
 		int[] alice = {1,1};
 		int[] bob = {2,2};
 		int[] arr = fcs.fairCandySwap(alice, bob);

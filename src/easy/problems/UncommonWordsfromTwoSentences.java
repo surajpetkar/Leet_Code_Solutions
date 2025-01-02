@@ -5,11 +5,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Uncommon_Words_from_Two_Sentences {
+public class UncommonWordsfromTwoSentences {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Uncommon_Words_from_Two_Sentences uwfts = new Uncommon_Words_from_Two_Sentences();
+		UncommonWordsfromTwoSentences uwfts = new UncommonWordsfromTwoSentences();
 		String[] str = uwfts.uncommonFromSentences(new String("this apple is sweet"), new String("this apple is sour"));
 		for(String s: str) {
 			System.err.println(s);
